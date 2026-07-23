@@ -1,0 +1,58 @@
+name: 2030-pick temporary media cleanup
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete expired managed releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          import re
+          import subprocess
+
+          marker = 'Managed by 2030-pick. Delete after Meta ingestion; 10-day cleanup fallback.'
+          pattern = re.compile(r"^2030-pick-media-(\d{4}-\d{2}-\d{2})-[a-f0-9]{16}$")
+          raw = subprocess.check_output(
+              [
+                  "gh", "api", "--paginate", "--slurp",
+                  f"repos/{os.environ['GH_REPO']}/releases?per_page=100",
+                  "-H", "Accept: application/vnd.github+json",
+                  "-H", "X-GitHub-Api-Version: 2026-03-10",
+              ],
+              text=True,
+          )
+          pages = json.loads(raw)
+          cutoff = dt.date.today() - dt.timedelta(days=10)
+          for release in (item for page in pages for item in page):
+              tag = str(release.get("tag_name", ""))
+              match = pattern.fullmatch(tag)
+              if not match:
+                  continue
+              release_date = dt.date.fromisoformat(match.group(1))
+              if release_date > cutoff:
+                  continue
+              expected_name = f"2030-pick temporary media {release_date.isoformat()}"
+              if release.get("name") != expected_name or release.get("body") != marker:
+                  raise SystemExit(f"managed-tag ownership collision: {tag}")
+              if release.get("immutable"):
+                  raise SystemExit(f"immutable managed release cannot be deleted: {tag}")
+              subprocess.run(
+                  ["gh", "release", "delete", tag, "--repo", os.environ["GH_REPO"], "--cleanup-tag", "--yes"],
+                  check=True,
+              )
+          PY
