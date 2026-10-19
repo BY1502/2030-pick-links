@@ -1,0 +1,105 @@
+{
+  "brand": "이삼공픽",
+  "account": "@2030_pick.today",
+  "locale": "ko-KR",
+  "timezone": "Asia/Seoul",
+  "content_date": "2026-10-19",
+  "generated_at": "2026-10-19T13:13:22.864525+09:00",
+  "publishable": true,
+  "hold_reason": "",
+  "cover_title": "서류는 줄이고\n이번 주는 알차게",
+  "cover_subtitle": "10월 19일 생활 뉴스 · 행정서류·한복 혜택·안전",
+  "topics": [
+    {
+      "category": "사회·안전",
+      "title": "행정서비스 1,658개, 서류 부담 감소",
+      "hook": "신청 전에 직접 발급해야 할 서류인지 먼저 확인하세요.",
+      "key_points": [
+        "행안부, 2024년부터 누적 1,658개 서비스 간소화 완료",
+        "학생·청년·교육훈련 124개, 출산·육아 등 107개 포함",
+        "정보 확인에 동의하면 담당자가 전산망으로 확인",
+        "모든 서류가 면제되는 것은 아닙니다. 서비스별 안내를 확인하세요."
+      ],
+      "why_it_matters": "지원사업 신청 전 공동이용 가능 서류를 확인하면 발급·제출에 드는 수고를 줄일 수 있습니다.",
+      "region": "전국",
+      "eligibility": "해당 행정서비스 이용자 · 정보 확인 동의 필요",
+      "deadline": "",
+      "is_update": false,
+      "verification_mode": "official_original",
+      "sources": [
+        {
+          "name": "행정안전부 · 2026.10.19",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785662",
+          "published_at": "2026-10-19",
+          "source_type": "official"
+        }
+      ],
+      "risk_notes": []
+    },
+    {
+      "category": "사회·안전",
+      "title": "한복 입고 문화생활, 혜택 확인",
+      "hook": "한복문화주간이 오늘부터 25일까지 열립니다.",
+      "key_points": [
+        "국내외 410여 개 참여처에서 전시·체험·공연",
+        "롯데월드 입장료 50%, 서울스카이 35% 할인(10.19~31)",
+        "국립국악원 토요 명품공연 관람료 50% 할인(10.24)",
+        "한복 착용객 대상입니다. 방문 전 시설별 이용 조건을 확인하세요."
+      ],
+      "why_it_matters": "이번 주 나들이를 계획한다면 행사 일정과 한복 착용 혜택을 함께 확인해 보세요.",
+      "region": "전국 행사 · 할인은 해당 시설",
+      "eligibility": "한복 착용 방문객 · 시설별 세부 조건 확인",
+      "deadline": "행사 10.25까지 · 할인은 시설별 상이",
+      "is_update": false,
+      "verification_mode": "official_original",
+      "sources": [
+        {
+          "name": "문화체육관광부 · 2026.10.19",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785590",
+          "published_at": "2026-10-19",
+          "source_type": "official"
+        }
+      ],
+      "risk_notes": []
+    },
+    {
+      "category": "사회·안전",
+      "title": "지진안전주간, 대피장소 미리 확인",
+      "hook": "10월 19~25일, 집과 직장 주변의 대피장소를 알아두세요.",
+      "key_points": [
+        "행안부, 지진·지진해일 행동요령 홍보·교육 진행",
+        "홍보부스: 10.21 대전복합터미널 · 10.23 망원한강공원",
+        "10.25 부산대역 문화나눔터에서도 홍보부스 운영",
+        "지진안전 누리집에서 대피장소 찾기·행동요령 확인"
+      ],
+      "why_it_matters": "자취방과 직장 주변 대피장소를 평소에 확인해 두면 위기 때 이동 경로를 판단하는 데 도움이 됩니다.",
+      "region": "전국 · 홍보부스는 서울·대전·부산",
+      "eligibility": "누구나",
+      "deadline": "지진안전주간 2026.10.25까지",
+      "is_update": false,
+      "verification_mode": "official_original",
+      "sources": [
+        {
+          "name": "행정안전부 · 2026.10.19",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785604",
+          "published_at": "2026-10-19",
+          "source_type": "official"
+        }
+      ],
+      "risk_notes": []
+    }
+  ],
+  "caption_intro": "2026년 10월 19일 이삼공픽 📌\n오늘 확인할 생활 뉴스 3가지입니다. 행정서류 간소화부터 이번 주 한복 혜택, 집 주변 대피장소까지 정리했습니다.",
+  "reel_caption": "10월 19일 생활 뉴스 3픽 📌 행정서비스 제출서류 간소화 · 한복문화주간 행사와 착용 혜택 · 지진안전주간 대피장소 확인. 자세한 대상·일정·이용 조건은 출처 페이지에서 확인하세요.",
+  "hashtags": [
+    "#이삼공픽",
+    "#2030픽",
+    "#생활정보",
+    "#청년생활",
+    "#한복문화주간",
+    "#지진안전주간"
+  ],
+  "verification_summary": "10월 19일 KST 확인. 행안부 제출서류 간소화 PDF(온라인 공개 10.19 12:00), 문체부 한복문화주간 PDF(10.19 08:00), 행안부 지진안전주간 PDF(온라인 공개 10.18 12:00, 정책브리핑 게시 10.19)를 직접 읽음. 최근 7일 로컬 이력과 중복 없음. 마감된 청년미래적금 모집 제외. 모든 서류 면제 또는 모든 시설 할인으로 일반화하지 않음.",
+  "content_id": "8e3ae8667e262910",
+  "updated_at": "2026-10-19T04:13:29+00:00"
+}
