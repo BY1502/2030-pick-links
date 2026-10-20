@@ -1,0 +1,91 @@
+{
+  "brand": "이삼공픽",
+  "account": "@2030_pick.today",
+  "locale": "ko-KR",
+  "timezone": "Asia/Seoul",
+  "content_date": "2026-10-20",
+  "generated_at": "2026-10-20T14:22:53.240343+09:00",
+  "publishable": true,
+  "hold_reason": "",
+  "cover_title": "금융 위기, 지원은?\n늦은 퇴근, 돌봄은?",
+  "cover_subtitle": "10월 20일 생활 뉴스 · 복지 연계와 야간돌봄",
+  "topics": [
+    {
+      "category": "금융·지원금",
+      "title": "금융 위기가구, 복지 연계 확대",
+      "hook": "생계가 막막한 금융 위기가구를 찾아 지원을 연결합니다.",
+      "key_points": [
+        "복지부, 10.19~12.11 위기가구 약 19만 명 발굴·조사",
+        "불법사금융 피해자 등 금융 위기 1만 7천 명 집중 조사",
+        "10.30부터 피해 상담 중 복지 필요 시 지자체 긴급 의뢰 예정",
+        "실제 위기 여부를 확인한 뒤 맞춤 지원을 연계합니다."
+      ],
+      "why_it_matters": "금융 피해 상담과 생계 지원을 연결합니다. 지원 여부는 개별 상황과 제도별 요건에 따라 결정됩니다.",
+      "region": "전국",
+      "eligibility": "금융·생계 위기가구 등 · 지원별 요건 확인",
+      "deadline": "조사 기간 2026.12.11까지",
+      "is_update": false,
+      "verification_mode": "official_original",
+      "sources": [
+        {
+          "name": "보건복지부 · 2026.10.19",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973765",
+          "published_at": "2026-10-19",
+          "source_type": "official"
+        },
+        {
+          "name": "보건복지부 · 2026.10.20 안내",
+          "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148973822",
+          "published_at": "2026-10-20",
+          "source_type": "official"
+        }
+      ],
+      "risk_notes": []
+    },
+    {
+      "category": "연애·결혼·육아",
+      "title": "늦은 퇴근, 야간돌봄 기관부터",
+      "hook": "야간연장 어린이집을 검색하고, 이용 가능 여부부터 전화로 확인하세요.",
+      "key_points": [
+        "야간연장 어린이집: 평일 19:30~24:00 · 취학 전 영유아",
+        "유보통합포털 상세검색에서 ‘야간연장형’ 선택",
+        "보육료 지원 자격에 따라 비용이 달라집니다. 기관에 확인하세요.",
+        "기관에 먼저 문의한 뒤 아이사랑포털에서 신청하세요."
+      ],
+      "why_it_matters": "퇴근 후 돌봄이 필요하다면 가까운 기관의 실제 운영시간·정원·요금을 먼저 확인할 수 있습니다.",
+      "region": "전국 · 기관별 이용 가능 여부 상이",
+      "eligibility": "취학 전 영유아 · 보육료 지원 자격 확인",
+      "deadline": "기관별 운영시간·신청 방법 확인",
+      "is_update": false,
+      "verification_mode": "official_original",
+      "sources": [
+        {
+          "name": "교육부 · 2026.10.20 안내",
+          "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148973826",
+          "published_at": "2026-10-20",
+          "source_type": "official"
+        },
+        {
+          "name": "교육부 · 2026.10.19 보도자료",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785658",
+          "published_at": "2026-10-19",
+          "source_type": "official"
+        }
+      ],
+      "risk_notes": []
+    }
+  ],
+  "caption_intro": "2026년 10월 20일 이삼공픽 📌\n금융 위기가구 복지 연계와 야간돌봄 기관 찾기, 오늘 확인할 생활 소식 두 가지입니다.",
+  "reel_caption": "10월 20일 생활 뉴스 2픽 📌 금융 위기가구 조사·복지 연계, 야간연장 어린이집 찾기. 긴급 의뢰 체계는 10월 30일부터 가동 예정이며, 돌봄 요금·이용 가능 여부는 기관에 먼저 확인하세요.",
+  "hashtags": [
+    "#이삼공픽",
+    "#2030픽",
+    "#생활정보",
+    "#복지정보",
+    "#육아정보",
+    "#야간돌봄"
+  ],
+  "verification_summary": "10.20 KST 공식 원문 확인. 복지부 10.19 정책뉴스 및 10.20 안내, 교육부 10.19 보도자료 HWPX와 10.20 안내를 대조. 조사 기간과 신청 마감 구분. 긴급 의뢰는 10.30 시작 예정. 야간연장 운영 현황은 8.31 기준이며 자격·요금·이용 가능 여부는 기관 확인. 최근 7일 게시 주제와 중복 없음.",
+  "content_id": "d15d88164f7080a3",
+  "updated_at": "2026-10-20T05:22:56+00:00"
+}
